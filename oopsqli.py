@@ -7,8 +7,7 @@ class Stupid:
         self.l = listing
         self.p = password
     def start(self):
-        with open(self.listing, "r") as reading:
-            eric = reading.readlines()
+        eric = open(self.listing, "r")
         for x in eric:
             x = x.strip(" ")
         #print ("Trying to bruteforce", password)
