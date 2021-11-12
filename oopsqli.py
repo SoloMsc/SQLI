@@ -21,9 +21,9 @@ class Stupid:
                 #for i in response:
                 #   print(i)
             if "Login failed" in response.content:
-                print("choose a better password next time genius")
+                print("[-]No valid passwords found")
             else:
-                print("Login sucessful")
+                print("[+]Login sucessful")
                 print("username:" + x)
         
 
